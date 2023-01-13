@@ -19,7 +19,7 @@ from transformers import pipeline, set_seed
 
 # Settings
 random_seed = 42
-max_length = 30
+max_length = 50
 num_return_sequences = 5
 initial_sentence = "Hello, I'm a language model,"
 
