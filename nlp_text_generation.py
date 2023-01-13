@@ -19,9 +19,9 @@ from transformers import pipeline, set_seed
 
 # Settings
 random_seed = 42
-max_length = 50
+max_length = 75
 num_return_sequences = 5
-initial_sentence = "Hello, I'm a language model,"
+initial_sentence = "If I had a million dollars"
 
 # Create generator that uses GPT-2
 generator = pipeline('text-generation', model='gpt2')
