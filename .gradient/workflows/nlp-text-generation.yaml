@@ -21,7 +21,7 @@ jobs:
 
   cloneRepo:
     resources:
-      instance-type: C4
+      instance-type: Free-CPU
     outputs:
       repo:
         type: volume
@@ -32,7 +32,7 @@ jobs:
 
   generateText:
     resources:
-      instance-type: C5
+      instance-type: Free-CPU
     needs:
       - cloneRepo
     inputs:
